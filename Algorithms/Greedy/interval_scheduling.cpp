@@ -19,5 +19,5 @@ void interval_scheduling(vector<pair<int,int>> &L){
 			cur = L[i].second;
 		}
 	}
-	cout << "Maximum number of disjoints sets :" << ans << "\n";
+	cout << "Maximum number of disjoints intervals :" << ans << "\n";
 }
