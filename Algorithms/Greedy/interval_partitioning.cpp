@@ -27,3 +27,5 @@ void interval_partitioning(vector<pair<int,int>> &L){
 	}
 	cout << "Minimum number of disjoints sets : " << s.size() << "\n";
 }
+
+
