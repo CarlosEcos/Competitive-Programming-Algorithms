@@ -22,7 +22,6 @@ void dijkstra(int v){
 		pq.pop();
 		if(used[a]) continue;
 		used[a] = true;
-		used[a] = false;
 		for(auto u : adj[a]){
 			if(d[a] + u.second < d[u.first]){
 				d[u.first] = d[a] + u.second;
