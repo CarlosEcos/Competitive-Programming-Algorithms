@@ -16,7 +16,6 @@ void dijkstra(int v){
 	priority_queue<pair<int,int>> pq;
 	d[v] = 0;
 	pq.push({0, v});
-	used[v] = true;
 	while(!pq.empty()){
 		int a = pq.top().second;
 		pq.pop();
